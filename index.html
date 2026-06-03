@@ -128,6 +128,7 @@
   }
 
   .subtitle {
+   text-align: center;
     font-size: 14px;
     color: var(--gray);
     margin-bottom: 3rem;
@@ -261,54 +262,37 @@
 </head>
 <body>
 
-<div class="bg-grid"></div>
-<div class="bg-glow"></div>
+<title>IBFI.UZ — Website Under Development</title>
 
-<div class="corner-tl"></div>
-<div class="corner-tr"></div>
-<div class="corner-bl"></div>
-<div class="corner-br"></div>
+<h1>IBFI<span>.UZ</span></h1>
 
-<div class="content">
-  <div class="emblem">
-    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-      <path d="M20 4L4 12v4h32v-4L20 4zm0 3.2L31.5 13h-23L20 7.2zM6 18v14h4V18H6zm8 0v14h4V18h-4zm8 0v14h4V18h-4zm8 0v14h4V18h-4zM4 34v2h32v-2H4z"/>
-    </svg>
+<p class="subtitle">
+  Our new digital platform is currently under development.<br>
+  We are preparing an enhanced experience and look forward to welcoming you soon.
+</p>
+
+<div class="progress-section">
+  <div class="progress-label">
+    <span>Preparing the new experience...</span>
+    <span id="pct">0%</span>
   </div>
-
-
-  <h1>IBFI<span>.UZ</span></h1>
-
-  <p class="subtitle">
-    Yangi sayt yaratilmoqda.<br>
-    Tez orada to'liq xizmat ko'rsatish boshlanadi.
-  </p>
-
-  <div class="divider"></div>
-
-  <div class="progress-section">
-    <div class="progress-label">
-      <span>Sayt yaratilmoqda...</span>
-      <span id="pct">0%</span>
-    </div>
-    <div class="progress-track">
-      <div class="progress-fill" id="bar"></div>
-    </div>
-  </div>
-
-  <div class="status-dots">
-    <div class="dot-item"><div class="dot"></div><span>Dizayn</span></div>
-    <div class="dot-item"><div class="dot"></div><span>Kontent</span></div>
-    <div class="dot-item"><div class="dot"></div><span>Sinovlar</span></div>
-  </div>
-
-  <div class="contact-row">
-    <span>Toshkent, O'zbekiston</span>
-    <a href="mailto:info@ibfi.uz">info@ibfi.uz</a>
+  <div class="progress-track">
+    <div class="progress-fill" id="bar"></div>
   </div>
 </div>
 
-<p class="footer-note">© 2026 IBFI.UZ — Barcha huquqlar himoyalangan</p>
+<div class="status-dots">
+  <div class="dot-item"><div class="dot"></div><span>Design</span></div>
+  <div class="dot-item"><div class="dot"></div><span>Development</span></div>
+  <div class="dot-item"><div class="dot"></div><span>Testing</span></div>
+</div>
+
+<div class="contact-row">
+  <span>Tashkent, Uzbekistan</span>
+  <a href="mailto:info@ibfi.uz">info@ibfi.uz</a>
+</div>
+
+<p class="footer-note">© 2026 IBFI.UZ — All Rights Reserved</p>
 
 <script>
   const bar = document.getElementById('bar');
